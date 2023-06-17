@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700;800&display=swap");
+
+body {
+  background-color: #e7eefb;
+}
+h1 {
+  text-align: center;
+  font-family: "poppins";
+  color: #222;
+}
+.contenu {
+  display: flex;
+  justify-content: center;
+  margin: 7em auto 0;
+}
+.Drapeau {
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.colonne {
+  width: 33.33%;
+  height: 100%;
+  position: absolute;
+}
+
+.vert {
+  background-color: green;
+  left: 0;
+}
+
+.jaune {
+  background-color: yellow;
+  left: 33.33%;
+}
+
+.rouge {
+  background-color: red;
+  left: 66.66%;
+}
+
+.etoile {
+  width: 60px;
+  height: 60px;
+  background-color: green;
+  clip-path: polygon(
+    50% 0%,
+    62% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    38% 38%
+  );
+  position: absolute;
+  top: 70px;
+  left: 120px;
+}
