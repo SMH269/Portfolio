@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px),
+    radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.contenu {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 5%;
+  color: #060606;
+  border-radius: 5px;
+}
+form .inputSaisie input {
+  height: 30px;
+  width: 100%;
+  padding: 0 10px;
+  font-size: 17px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  outline: none;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.btn input {
+  outline: none;
+  font-family: "poppins";
+  border-radius: 4px;
+  padding: 2%;
+
+  background: #fff;
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  font-size: 18px;
+}
+.btn input:active {
+  transform: translateY(2px);
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.1);
+}
+#resultatLabel {
+  height: 20px;
+}
